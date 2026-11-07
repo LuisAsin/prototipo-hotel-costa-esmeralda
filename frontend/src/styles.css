@@ -1,0 +1,19 @@
+/* Paleta esmeralda (sec. 11.1): sobrescribe el primario de Bootstrap */
+:root {
+  --bs-primary: #0f7a5c;
+  --bs-primary-rgb: 15, 122, 92;
+  --bs-link-color: #0f7a5c;
+  --bs-link-color-rgb: 15, 122, 92;
+  --bs-link-hover-color: #0b5d46;
+}
+
+.btn-primary {
+  --bs-btn-bg: #0f7a5c;
+  --bs-btn-border-color: #0f7a5c;
+  --bs-btn-hover-bg: #0c6249;
+  --bs-btn-hover-border-color: #0b5d46;
+  --bs-btn-active-bg: #0b5d46;
+  --bs-btn-active-border-color: #0a5440;
+  --bs-btn-disabled-bg: #0f7a5c;
+  --bs-btn-disabled-border-color: #0f7a5c;
+}
